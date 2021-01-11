@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>removing items from the list</title>
+</head>
+
+<style>
+   body{
+       background-color: #000;
+       font-size: 60px;     
+
+   } 
+
+   body ul{
+       position:absolute;
+       top:40%;
+        left:50%;
+        transform:translate(-50%, -50%)
+   }
+   body ul li{
+       
+       list-style: none;
+       color:white;
+   }
+
+   button{
+       background-color: black;
+       font-size: 30px;
+       color:white;
+       border: 2px solid white;
+   }
+
+   button:hover{
+       background-color: white;
+       color:black;
+       cursor:pointer;
+   }
+    ul{
+        
+        
+    }
+
+</style>
+
+<body>
+    <ul>
+        <li data-key="1">task - 1 <button data-key="1">Delete</button></li>
+        <li data-key="2">task - 2 <button data-key="2">Delete</button></li>
+        <li data-key="3">task - 3 <button data-key="3">Delete</button></li>
+        <li data-key="4">task - 4 <button data-key="4">Delete</button></li>
+        <li data-key="5">task - 5 <button data-key="5">Delete</button></li>
+        <li data-key="6">task - 6 <button data-key="6">Delete</button></li>
+        <li data-key="7">task - 7 <button data-key="7">Delete</button></li>
+        <li data-key="8">task - 8 <button data-key="8">Delete</button></li>
+        <li data-key="9">task - 9 <button data-key="9">Delete</button></li>
+        <li data-key="10">task - 10 <button data-key="10">Delete</button></li>
+        <li data-key="11">task - 11 <button data-key="11">Delete</button></li>
+        <li data-key="12">task - 12 <button data-key="12">Delete</button></li>
+        
+    </ul>
+ <script src="main.js"></script>
+</body>
+
+</html>
